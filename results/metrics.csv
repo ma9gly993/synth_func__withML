@@ -1,0 +1,4 @@
+dataset,model,params,accuracy,f1,precision,recall,roc_auc
+he_exact2_12_fail.csv,DecisionTree,"{'max_depth': 12, 'min_samples_split': 16, 'min_samples_leaf': 1, 'criterion': 'entropy', 'max_features': None}",0.9780487804878049,0.0,0.0,0.0,0.5884567724716424
+he_exact2_12_fail.csv,LogisticRegression,"{'C': 8.186663441989541, 'penalty': 'l1', 'max_iter': 665}",0.9841463414634146,0.0,0.0,0.0,0.5888857115622915
+he_exact2_12_fail.csv,MLPClassifier,"{'n_layers': 1, 'n_neurons_l0': 59, 'alpha': 0.0015582384355444197, 'learning_rate_init': 0.0005764208817548978, 'max_iter': 248}",0.9768292682926829,0.09523809523809523,0.125,0.07692307692307693,0.5341244876560862
